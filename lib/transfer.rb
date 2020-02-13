@@ -19,5 +19,5 @@ class Transfer
       status = "successful"
     else
       status = "failed"
-    end 
+    end
 end
