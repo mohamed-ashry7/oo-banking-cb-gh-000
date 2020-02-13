@@ -20,4 +20,5 @@ class Transfer
     else
       status = "failed"
     end
+  end 
 end
