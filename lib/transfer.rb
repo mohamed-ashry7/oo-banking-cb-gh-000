@@ -16,9 +16,9 @@ class Transfer
     if amount >=sender.balance
       self.receiver.balance += self.amount
       self.sender.balance -= self.amount
-      status = "successful"
+      self.status = "successful"
     else
-      status = "failed"
+      self.status = "failed"
     end
   end
 end
