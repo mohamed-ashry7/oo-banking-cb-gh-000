@@ -1,7 +1,7 @@
 class Transfer
 
-
-  def initialize(from,to,amount)
+  attr_reader :sender , :receiver
+  def initialize(sender,receiver,amount)
 
   end
 
